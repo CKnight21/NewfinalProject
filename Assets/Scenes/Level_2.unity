@@ -9104,13 +9104,12 @@ GameObject:
   - component: {fileID: 1696467971}
   - component: {fileID: 1696467970}
   - component: {fileID: 1696467969}
-  - component: {fileID: 1696467968}
   - component: {fileID: 1696467967}
   - component: {fileID: 1696467966}
   - component: {fileID: 1696467965}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9156,8 +9155,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8c40d511a7c26c4e83fba5d7863ed13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 6
-  jumpForce: 5
+  movementSpeed: 8
+  jumpForce: 7
   groundCheck: {fileID: 624400090}
   ground:
     serializedVersion: 2
@@ -9178,24 +9177,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &1696467968
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1696467963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8c40d511a7c26c4e83fba5d7863ed13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementSpeed: 8
-  jumpForce: 5
-  groundCheck: {fileID: 624400090}
-  ground:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!136 &1696467969
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10140,7 +10121,7 @@ GameObject:
   - component: {fileID: 2086610953}
   - component: {fileID: 2086610952}
   - component: {fileID: 2086610951}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Enemy
   m_TagString: Enemy Body
   m_Icon: {fileID: 0}
