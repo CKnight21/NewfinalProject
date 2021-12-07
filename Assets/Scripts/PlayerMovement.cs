@@ -6,29 +6,48 @@ using UnityEngine;
 
 
  */
+
 public class PlayerMovement : MonoBehaviour
 {
+    
     Rigidbody rb;
     [SerializeField] float movementSpeed = 6f;
     [SerializeField] float jumpForce = 5f;
-
+    bool wallCheck2;
+    [SerializeField] Transform wallCheck;
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask ground;
     // Start is called before the first frame update
     void Start()
     {
+        
         rb = GetComponent<Rigidbody>();
+    }
+
+    private void Awake()
+    {
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        float player = GameObject.Find("Player").transform.position.y;
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
+        if (player < 6.2)
+        {
+            wallCheck2 = Physics.CheckSphere(wallCheck.position, 1f, ground);
+        }
+        else
+        {
+            wallCheck2 = false;
+        }
+        
 
         rb.velocity = new Vector3(horizontalInput * movementSpeed, rb.velocity.y, verticalInput * movementSpeed);
 
-        if (Input.GetButtonDown("Jump") && IsGrounded())
+        if (Input.GetButtonDown("Jump") && IsGrounded() || Input.GetButtonDown("Jump") && wallCheck2 == true)
         {
             jump();
         }
