@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScreen.unity
     guid: e7d5e54209c786248b7ad9393e68b9ff
   - enabled: 1
-    path: Assets/Scenes/CKlevel 1.unity
+    path: Assets/Scenes/CKlevel 1/CKlevel 1.unity
     guid: 4d8e8b9801941fc40a4405ce90fdb24a
   - enabled: 1
     path: Assets/Scenes/NFlevel2/NFlevel2.unity
