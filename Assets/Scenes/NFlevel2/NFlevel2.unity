@@ -544,6 +544,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1577707187777398304, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ee0b7566031598d4da0377c4b67db394, type: 2}
     - target: {fileID: 1577707187777398306, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
       propertyPath: m_Name
       value: Wall (23)
@@ -6175,6 +6179,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1668178137}
     m_Modifications:
+    - target: {fileID: 1577707187777398304, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ee0b7566031598d4da0377c4b67db394, type: 2}
     - target: {fileID: 1577707187777398306, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
       propertyPath: m_Name
       value: Wall (5)
@@ -6564,6 +6572,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1309752962}
     m_Modifications:
+    - target: {fileID: 1577707187777398304, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ee0b7566031598d4da0377c4b67db394, type: 2}
     - target: {fileID: 1577707187777398306, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
       propertyPath: m_Name
       value: Wall (17)
@@ -6634,6 +6646,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1309752962}
     m_Modifications:
+    - target: {fileID: 1577707187777398304, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ee0b7566031598d4da0377c4b67db394, type: 2}
     - target: {fileID: 1577707187777398306, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
       propertyPath: m_Name
       value: Wall (18)
@@ -7022,7 +7038,7 @@ PrefabInstance:
     - target: {fileID: 1752255851549408112, guid: 4270c230c2808734998eaee7447c4081, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 26bc7e676b0e3e44ea79717c677bc097, type: 2}
+      objectReference: {fileID: 2100000, guid: ee0b7566031598d4da0377c4b67db394, type: 2}
     - target: {fileID: 6987891523856848429, guid: 4270c230c2808734998eaee7447c4081, type: 3}
       propertyPath: m_Name
       value: Plane (21)
@@ -7135,6 +7151,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 473410841}
     m_Modifications:
+    - target: {fileID: 1577707187777398304, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ee0b7566031598d4da0377c4b67db394, type: 2}
     - target: {fileID: 1577707187777398306, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
       propertyPath: m_Name
       value: Wall (14)
@@ -7285,6 +7305,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1668178137}
     m_Modifications:
+    - target: {fileID: 1577707187777398304, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ee0b7566031598d4da0377c4b67db394, type: 2}
     - target: {fileID: 1577707187777398306, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
       propertyPath: m_Name
       value: Wall (6)
@@ -7612,6 +7636,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1309752962}
     m_Modifications:
+    - target: {fileID: 1577707187777398304, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ee0b7566031598d4da0377c4b67db394, type: 2}
     - target: {fileID: 1577707187777398306, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
       propertyPath: m_Name
       value: Wall (16)
@@ -7903,6 +7931,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1309752962}
     m_Modifications:
+    - target: {fileID: 1577707187777398304, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ee0b7566031598d4da0377c4b67db394, type: 2}
     - target: {fileID: 1577707187777398306, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
       propertyPath: m_Name
       value: Wall (14)
@@ -8285,7 +8317,7 @@ PrefabInstance:
     - target: {fileID: 1752255851549408112, guid: 4270c230c2808734998eaee7447c4081, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 26bc7e676b0e3e44ea79717c677bc097, type: 2}
+      objectReference: {fileID: 2100000, guid: ee0b7566031598d4da0377c4b67db394, type: 2}
     - target: {fileID: 6987891523856848429, guid: 4270c230c2808734998eaee7447c4081, type: 3}
       propertyPath: m_Name
       value: Plane (18)
@@ -8365,6 +8397,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1668178137}
     m_Modifications:
+    - target: {fileID: 1577707187777398304, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ee0b7566031598d4da0377c4b67db394, type: 2}
     - target: {fileID: 1577707187777398306, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
       propertyPath: m_Name
       value: Wall (2)
@@ -8557,7 +8593,7 @@ PrefabInstance:
     - target: {fileID: 1752255851549408112, guid: 4270c230c2808734998eaee7447c4081, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 26bc7e676b0e3e44ea79717c677bc097, type: 2}
+      objectReference: {fileID: 2100000, guid: ee0b7566031598d4da0377c4b67db394, type: 2}
     - target: {fileID: 6987891523856848429, guid: 4270c230c2808734998eaee7447c4081, type: 3}
       propertyPath: m_Name
       value: Plane (3)
@@ -8576,6 +8612,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1309752962}
     m_Modifications:
+    - target: {fileID: 1577707187777398304, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ee0b7566031598d4da0377c4b67db394, type: 2}
     - target: {fileID: 1577707187777398306, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
       propertyPath: m_Name
       value: Wall (15)
@@ -8691,6 +8731,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1668178137}
     m_Modifications:
+    - target: {fileID: 1577707187777398304, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ee0b7566031598d4da0377c4b67db394, type: 2}
     - target: {fileID: 1577707187777398306, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
       propertyPath: m_Name
       value: Wall (24)
@@ -8761,6 +8805,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1309752962}
     m_Modifications:
+    - target: {fileID: 1577707187777398304, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ee0b7566031598d4da0377c4b67db394, type: 2}
     - target: {fileID: 1577707187777398306, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
       propertyPath: m_Name
       value: Wall (19)
@@ -9198,7 +9246,7 @@ PrefabInstance:
     - target: {fileID: 1752255851549408112, guid: 4270c230c2808734998eaee7447c4081, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 26bc7e676b0e3e44ea79717c677bc097, type: 2}
+      objectReference: {fileID: 2100000, guid: ee0b7566031598d4da0377c4b67db394, type: 2}
     - target: {fileID: 6987891523856848429, guid: 4270c230c2808734998eaee7447c4081, type: 3}
       propertyPath: m_Name
       value: Plane (23)
@@ -9297,6 +9345,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1668178137}
     m_Modifications:
+    - target: {fileID: 1577707187777398304, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ee0b7566031598d4da0377c4b67db394, type: 2}
     - target: {fileID: 1577707187777398306, guid: 7b8cde75a34d90e40a997c15519f37e0, type: 3}
       propertyPath: m_Name
       value: Wall
