@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Runtime;
+using System.Globalization;
+using System;
 /* 
  Code Notes!
 
@@ -29,9 +32,21 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
+    public float turnSensitivity = 10;
+
     // Update is called once per frame
     void Update()
     {
+        Camera main = Camera.main;
+        GameObject play = GameObject.Find("Player");
+        if (Input.GetKey(KeyCode.Q))
+        {
+            transform.RotateAround(play.transform.position, Vector3.up, -turnSensitivity * Time.deltaTime);
+        }
+        else if (Input.GetKey(KeyCode.E))
+        {
+            transform.RotateAround(play.transform.position, Vector3.up, turnSensitivity * Time.deltaTime);
+        }
         float player = GameObject.Find("Player").transform.position.y;
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
@@ -44,8 +59,8 @@ public class PlayerMovement : MonoBehaviour
             wallCheck2 = false;
         }
         
-
-        rb.velocity = new Vector3(horizontalInput * movementSpeed, rb.velocity.y, verticalInput * movementSpeed);
+        
+        rb.velocity = new Vector3((main.transform.right.x * horizontalInput * movementSpeed) + (main.transform.forward.x * verticalInput * movementSpeed), rb.velocity.y, (main.transform.forward.z * verticalInput * movementSpeed) + (main.transform.right.z * horizontalInput * movementSpeed));
 
         if (Input.GetButtonDown("Jump") && IsGrounded() || Input.GetButtonDown("Jump") && wallCheck2 == true)
         {
