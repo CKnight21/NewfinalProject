@@ -4936,6 +4936,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8256358295965719547, guid: ce4e4589431787345bc3a805eef3d8b1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8256358295965719548, guid: ce4e4589431787345bc3a805eef3d8b1, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -4988,5 +4992,9 @@ PrefabInstance:
       propertyPath: turnSensitivity
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 8256358295965719554, guid: ce4e4589431787345bc3a805eef3d8b1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 632ba1e0743aa1240bab732905a8fc07, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce4e4589431787345bc3a805eef3d8b1, type: 3}
