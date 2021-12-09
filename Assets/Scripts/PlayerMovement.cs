@@ -22,10 +22,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] LayerMask ground;
     // Start is called before the first frame update
 
-    [SerializeField] float RotationSpeed = 1;
-    public float rotX;
-    public float rotY;
-    public float rotZ;
+   
     void Start()
     {
         
@@ -72,10 +69,7 @@ public class PlayerMovement : MonoBehaviour
             jump();
         }
 
-        rotX -= Input.GetAxis("Mouse Y") * Time.deltaTime * RotationSpeed;
-        rotY += Input.GetAxis("Mouse X") * Time.deltaTime * RotationSpeed;
-
-        transform.rotation = Quaternion.Euler(0, rotY, 0);
+       
        // GameObject.FindWithTag("MainCamera").transform.rotation = Quaternion.Euler(rotX, rotY, 0);
     }
 
