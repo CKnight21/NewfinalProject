@@ -4984,5 +4984,9 @@ PrefabInstance:
       propertyPath: wallCheck
       value: 
       objectReference: {fileID: 939894635}
+    - target: {fileID: 8256358295965719550, guid: ce4e4589431787345bc3a805eef3d8b1, type: 3}
+      propertyPath: turnSensitivity
+      value: 50
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce4e4589431787345bc3a805eef3d8b1, type: 3}
